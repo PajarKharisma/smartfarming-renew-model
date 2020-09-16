@@ -22,7 +22,7 @@ checkpoint = {
         'loss' : checkpoint['loss'],
         'class_names' : checkpoint['class_names'],
         'desc' : checkpoint['desc'],
-        'solution' : solutions,
+        'solution' : get_solution('solution/'),
         'state_dict': checkpoint['state_dict'],
         'optimizer': checkpoint['optimizer']
     }
